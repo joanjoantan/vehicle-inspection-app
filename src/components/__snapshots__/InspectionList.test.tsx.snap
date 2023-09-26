@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InspectionList renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="box-container MuiBox-root css-0"
+  >
+    <h2
+      class="primary-colour"
+    >
+      Available Inspections
+    </h2>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+    >
+      <table
+        aria-label="table"
+        class="MuiTable-root css-quj9j6-MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Inspection Name
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Inspection Allowed Types
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              Inspection 1
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              car, van
+            </th>
+          </tr>
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              Inspection 2
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              lorry, any
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`InspectionList snapshots to compare the rendered component to a saved snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="box-container MuiBox-root css-0"
+  >
+    <h2
+      class="primary-colour"
+    >
+      Available Inspections
+    </h2>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+    >
+      <table
+        aria-label="table"
+        class="MuiTable-root css-quj9j6-MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Inspection Name
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Inspection Allowed Types
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              Inspection 1
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              car, van
+            </th>
+          </tr>
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              Inspection 2
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+              scope="row"
+            >
+              lorry, any
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;

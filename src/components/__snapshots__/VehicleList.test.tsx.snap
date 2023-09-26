@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InspectionList snapshots to compare the rendered component to a saved snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="box-container MuiBox-root css-0"
+  >
+    <h2
+      class="primary-colour"
+    >
+      List of Vehicles
+    </h2>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+    >
+      <table
+        aria-label="table"
+        class="MuiTable-root css-quj9j6-MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Description
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Type
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Inspections
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Attach Inspections to Vehicles
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+               Car 1 
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              Sedan
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <span>
+                Inspection 1 
+                <button>
+                  Remove
+                </button>
+                <br />
+              </span>
+              <span>
+                Inspection 2 
+                <button>
+                  Remove
+                </button>
+                <br />
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <select
+                data-testid="attach-inspection-select-1"
+              >
+                <option
+                  value=""
+                >
+                  Select an inspection
+                </option>
+                <option
+                  value="1"
+                >
+                  Inspection 1
+                </option>
+                <option
+                  disabled=""
+                  value="2"
+                >
+                  Inspection 2
+                </option>
+              </select>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+               Van 1 
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              Minivan
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <span>
+                Inspection 2 
+                <button>
+                  Remove
+                </button>
+                <br />
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <select
+                data-testid="attach-inspection-select-2"
+              >
+                <option
+                  value=""
+                >
+                  Select an inspection
+                </option>
+                <option
+                  value="1"
+                >
+                  Inspection 1
+                </option>
+                <option
+                  value="2"
+                >
+                  Inspection 2
+                </option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`VehicleList snapshots to compare the rendered component to a saved snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="box-container MuiBox-root css-0"
+  >
+    <h2
+      class="primary-colour"
+    >
+      List of Vehicles
+    </h2>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+    >
+      <table
+        aria-label="table"
+        class="MuiTable-root css-quj9j6-MuiTable-root"
+      >
+        <thead
+          class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+        >
+          <tr
+            class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+          >
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Description
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Type
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Inspections
+            </th>
+            <th
+              class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall css-1howxi1-MuiTableCell-root"
+              scope="col"
+            >
+              Attach Inspections to Vehicles
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+        >
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+               Car 1 
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              Sedan
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <span>
+                Inspection 1 
+                <button>
+                  Remove
+                </button>
+                <br />
+              </span>
+              <span>
+                Inspection 2 
+                <button>
+                  Remove
+                </button>
+                <br />
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <select
+                data-testid="attach-inspection-select-1"
+              >
+                <option
+                  value=""
+                >
+                  Select an inspection
+                </option>
+                <option
+                  value="1"
+                >
+                  Inspection 1
+                </option>
+                <option
+                  disabled=""
+                  value="2"
+                >
+                  Inspection 2
+                </option>
+              </select>
+            </td>
+          </tr>
+          <tr
+            class="MuiTableRow-root css-1q1u3t4-MuiTableRow-root"
+          >
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+               Van 1 
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              Minivan
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <span>
+                Inspection 2 
+                <button>
+                  Remove
+                </button>
+                <br />
+              </span>
+            </td>
+            <td
+              class="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall css-dsuxgy-MuiTableCell-root"
+            >
+              <select
+                data-testid="attach-inspection-select-2"
+              >
+                <option
+                  value=""
+                >
+                  Select an inspection
+                </option>
+                <option
+                  value="1"
+                >
+                  Inspection 1
+                </option>
+                <option
+                  value="2"
+                >
+                  Inspection 2
+                </option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;

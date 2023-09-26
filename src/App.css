@@ -1,0 +1,14 @@
+form.filter-form {
+  display: inherit;
+  width: 100%;
+}
+
+.primary-colour {
+  color: #13ab5b
+}
+
+.box-container {
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
