@@ -5,12 +5,12 @@ The Vehicle Inspection App is a client-side React application that allows users 
 ## Table of Contents
 
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
 - [Running Tests](#running-tests)
-- [Technologies Used](#technologies-used)
 - [Folder Structure](#folder-structure)
 - [Assumptions Made](#assumptions-made)
 - [Further Improvements](#further-improvements)
@@ -23,6 +23,16 @@ The Vehicle Inspection App is a client-side React application that allows users 
 - Remove inspections from vehicles.
 - Filter vehicles by registration, type, and more.
 - Filter inspections by name and allowed type.
+
+### Technologies Used
+
+The Vehicle Inspection App is built using the following technologies:
+
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A statically typed superset of JavaScript.
+- HTML/CSS: For structuring and styling the application.
+- Node.js: For running JavaScript on the server (used for development and testing).
+- Jest: A JavaScript testing framework.
 
 ## Getting Started
 
@@ -49,10 +59,10 @@ Follow these instructions to set up and run the Vehicle Inspection App on your l
 
 3. Install the project dependencies:
 
-```bash
-yarn install
+   ```bash
+   yarn install
 
-```
+   ```
 
 ### Usage
 
@@ -74,26 +84,18 @@ To run tests for the app, use the following command:
 yarn test
 ```
 
-### Technologies Used
-
-The Vehicle Inspection App is built using the following technologies:
-
-React: A JavaScript library for building user interfaces.
-TypeScript: A statically typed superset of JavaScript.
-HTML/CSS: For structuring and styling the application.
-Node.js: For running JavaScript on the server (used for development and testing).
-Jest: A JavaScript testing framework.
-Git: For version control.
-
 ### Folder Structure
 
 The project directory is structured as follows:
 
-- public: Contains static assets and the HTML file.
-- src: Contains the source code for the React application.
-- components: Contains React components.
-- data: Contains example data for vehicles and inspections.
-- App.tsx: The main application component.
+- `public`: Contains static assets and the HTML file.
+- `src`: Contains the source code for the React application.
+
+  - `components`: Contains React components.
+  - `data`: Contains example data for vehicles and inspections.
+  - `themes`:
+    The `themes` directory contains custom styling themes for the application. These themes are used to define the visual appearance of the app, including colors, fonts, and other styling elements.
+  - `App.tsx`: The main application component.
 
 ### Assumptions Made
 
