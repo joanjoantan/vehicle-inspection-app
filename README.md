@@ -114,3 +114,7 @@ Given more time, here are some potential improvements that could be made to the 
 - Persist data using a database or local storage for data retention.
 - Enhance test coverage with more comprehensive unit and integration tests.
 - Implement pagination for better handling of large data sets.
+
+### Screenshot
+
+![Screenshot](screenshot.png)
